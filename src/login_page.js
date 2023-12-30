@@ -62,7 +62,7 @@ const LoginPage = () => {
       }, 5000)
       setTimeoutId(id)
     }
-  }, [validationError])
+  }, [validationError,timeoutId])
 
   return (
     <>
@@ -78,7 +78,7 @@ const LoginPage = () => {
       }
       <div className="grid w-[400px] h-[450px] bg-[#262626] rounded-md">
         <div className="p-10 grid">
-          <img src={logo} className='w-72 place-self-center grid' />
+          <img alt='LOGO' src={logo} className='w-72 place-self-center grid' />
           <div class="grid gap-[10px]">
             <input value={email} onChange={onEmailChange} type="email" id="email" class="bg-gray-50 w-[90%] place-self-center grid border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 placeholder:text-black" placeholder="Username" required />
             <input value={password} onChange={onPasswordChange} type="password" id="password" class="bg-gray-50 w-[90%] place-self-center grid border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 placeholder:text-black" placeholder='Password' required />
