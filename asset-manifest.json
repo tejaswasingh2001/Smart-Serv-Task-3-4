@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Smart-Serv-Task-3-4/static/css/main.23374350.css",
+    "main.js": "/Smart-Serv-Task-3-4/static/js/main.5a3714dd.js",
+    "static/js/787.49e58a97.chunk.js": "/Smart-Serv-Task-3-4/static/js/787.49e58a97.chunk.js",
+    "static/media/logo.png": "/Smart-Serv-Task-3-4/static/media/logo.d72d6e41cb0767a261a5.png",
+    "index.html": "/Smart-Serv-Task-3-4/index.html",
+    "main.23374350.css.map": "/Smart-Serv-Task-3-4/static/css/main.23374350.css.map",
+    "main.5a3714dd.js.map": "/Smart-Serv-Task-3-4/static/js/main.5a3714dd.js.map",
+    "787.49e58a97.chunk.js.map": "/Smart-Serv-Task-3-4/static/js/787.49e58a97.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23374350.css",
+    "static/js/main.5a3714dd.js"
+  ]
+}
